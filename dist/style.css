@@ -445,6 +445,8 @@ h1 {
   font-family: Poppins;
   font-size: 3rem;
   line-height: 1;
+  --tw-text-opacity: 1;
+  color: rgb(33 47 73 / var(--tw-text-opacity));
 }
 
 h2 {
@@ -452,6 +454,8 @@ h2 {
   font-family: Poppins;
   font-size: 1.875rem;
   line-height: 2.25rem;
+  --tw-text-opacity: 1;
+  color: rgb(33 47 73 / var(--tw-text-opacity));
 }
 
 h3 {
@@ -459,6 +463,8 @@ h3 {
   font-family: Poppins;
   font-size: 1.5rem;
   line-height: 2rem;
+  --tw-text-opacity: 1;
+  color: rgb(33 47 73 / var(--tw-text-opacity));
 }
 
 *, ::before, ::after {
@@ -669,14 +675,14 @@ h3 {
   gap: 1rem;
 }
 
-.bg-blue-800 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(30 64 175 / var(--tw-bg-opacity));
-}
-
 .bg-gray-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+}
+
+.bg-mainColor {
+  --tw-bg-opacity: 1;
+  background-color: rgb(33 47 73 / var(--tw-bg-opacity));
 }
 
 .px-6 {

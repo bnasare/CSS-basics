@@ -5,6 +5,9 @@ module.exports = {
     extend: {
       fontFamily: {
         headline: ['Poppins']
+      },
+      colors: {
+        mainColor: '#212f49'
       }
     },
     debugScreens: {

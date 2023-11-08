@@ -12,14 +12,14 @@
 
 
     h1 {
-        @apply text-5xl mb-6 font-headline;
+        @apply text-5xl mb-6 font-headline text-mainColor;
     }
 
     h2 {
-        @apply text-3xl mb-3 font-headline;
+        @apply text-3xl mb-3 font-headline text-mainColor;
     }
 
     h3 {
-        @apply text-2xl mb-2 font-headline;
+        @apply text-2xl mb-2 font-headline text-mainColor;
     }
 }
