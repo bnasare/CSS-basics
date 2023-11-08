@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./dist/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        headline: ['Poppins']
+      }
+    },
     debugScreens: {
       position: ['top', 'left'],
     },
