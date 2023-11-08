@@ -655,6 +655,34 @@ h3 {
   margin-top: 2rem;
 }
 
+.ml-5 {
+  margin-left: 1.25rem;
+}
+
+.ml-4 {
+  margin-left: 1rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.mr-auto {
+  margin-right: auto;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
 .grid {
   display: grid;
 }
@@ -667,12 +695,28 @@ h3 {
   width: 66.666667%;
 }
 
+.list-inside {
+  list-style-position: inside;
+}
+
+.list-outside {
+  list-style-position: outside;
+}
+
+.list-disc {
+  list-style-type: disc;
+}
+
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .gap-4 {
   gap: 1rem;
+}
+
+.gap-10 {
+  gap: 2.5rem;
 }
 
 .bg-gray-100 {
@@ -697,4 +741,9 @@ h3 {
 
 .text-center {
   text-align: center;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
