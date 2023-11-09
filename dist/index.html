@@ -18,7 +18,7 @@
                 </div>
             </section>
 
-            <section class="mt-8 grid grid-cols-2 gap-10" id="image_services">
+            <section class="mt-8 grid grid-cols-2 gap-4 md:gap-10 xl:w-9/12 xl:mx-auto" id="image_services">
                 <! - picture ->
                     <div class="ml-auto" id="image">
                         <img src="img/tom.jpg" alt="Tom Gonzales Online Training">
@@ -27,35 +27,45 @@
                         <div id="services">
                             <h3>I offer you:</h3>
                             <ul class="list-disc ml-4">
-                                <li class="mb-4">Lessons via Skype and you can record all sessions and watch them again
+                                <li>Lessons via Skype and you can record all sessions and watch them again
                                     later. </li>
-                                <li class="mb-4 text-xl">Holistic full body training</li>
-                                <li class="mb-4 text-xl">Training without equipment</li>
-                                <li class="mb-4 text-xl">Pain reduction</li>
-                                <li class="mb-4 text-xl">Tailored nutrition plans</li>
+                                <li>Holistic full body training</li>
+                                <li>Training without equipment</li>
+                                <li>Pain reduction</li>
+                                <li>Tailored nutrition plans</li>
                             </ul>
-                            <h3 class="mt-10">My qualifications:</h3>
-                            <ul class="list-disc ml-4">
-                                <li class="mb-4 text-xl">Certified nutritionist</li>
-                                <li class="mb-4 text-xl">Certified fitness trainer</li>
-                                <li class="mb-4 text-xl">5 years of experience in 1: 1 training</li>
+                            <!-- Only for >=md -->
+                            <h3 class="mt-10 hidden md:block">My qualifications:</h3>
+                            <ul class="list-disc ml-4 hidden md:block ">
+                                <li>Certified nutritionist</li>
+                                <li>Certified fitness trainer</li>
+                                <li>5 years of experience in 1: 1 training</li>
                             </ul>
                         </div>
             </section>
 
+            <!-- Only for <=sm -->
+            <h3 class="mt:5 md:mt-10 md:hidden">My qualifications:</h3>
+            <ul class="list-disc ml-4 md:hidden">
+                <li>Certified nutritionist</li>
+                <li>Certified fitness trainer</li>
+                <li>5 years of experience in 1: 1 training</li>
+            </ul>
+
             <! - Prices and payment ->
                 <footer class="mt-8 mb-10" id="prices_payment">
-                    <div class="w-8/12 mx-auto">
-                        <h2>Prices and payment</h2>
+                    <div class="lg:w-8/12 mx-auto">
+                        <h2 class="xl:text-3xl">Prices and payment</h2>
                         <p>My most important goal is that you get ahead with your goals.</p>
-                        <p>In a free opening session we will discuss what you want to achieve and how much you can
+                        <p class="text-justify">In a free opening session we will discuss what you want to achieve and
+                            how much you can
                             or want to spend. Then we are guaranteed to find a solution that suits you.</p>
                     </div>
                     </section>
 
                     <! - Contact ->
                         <section class="mt-8" id="contact">
-                            <div class="grid grid-cols-2 items-center gap-4 w-8/12 mx-auto">
+                            <div class=" flex justify-around  xl:w-7/12 lg:items-center lg:gap-4 lg:w-8/12 lg:mx-auto">
                                 <div id="email">
                                     <p>Your message:</p>
                                     <a class="bg-gray-300 px-4 py-2 rounded shadow-sm hover:bg-gray-500 hover:shadow-none transition flex items-center w-max"
@@ -67,12 +77,12 @@
                                             <circle cx="12" cy="12" r="4" />
                                             <path d="M16 8v5a3 3 0 0 0 6 0v-1a10 10 0 1 0-3.92 7.94" />
                                         </svg>
-                                        <span class="ml-2">Send an Email</span>
+                                        <span class="ml-2 text-lg 2xl:2xl">Send an Email</span>
                                     </a>
                                 </div>
                                 <div id="whatsApp_telefon">
                                     <p>WhatsApp:</p>
-                                    1 222 555 44 33
+                                    <span class="text-lg 2xl:2xl">1 222 555 44 33</span>
                                 </div>
                             </div>
                 </footer>
